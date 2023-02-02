@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "KWxBOili+LJsOa33H4rRDsnJduTw06pkB7+TSUfrMeQ=",
+  "Source": "BankingSystemApi",
+  "BasePath": "_content/BankingSystemApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

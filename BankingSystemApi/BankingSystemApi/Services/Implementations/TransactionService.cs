@@ -84,7 +84,7 @@ namespace BankingSystemApi.Services.Implementations
                     // transaction is successful
                     transaction.TransactionStatus = TranStatus.Success;
                     response.ResponseCode = "00";
-                    response.ResponseMessage = "Transaction successfull";
+                    response.ResponseMessage = "Transaction successful";
                     response.Data = null;
                     
                 }
@@ -153,7 +153,7 @@ namespace BankingSystemApi.Services.Implementations
                     // transaction is successfull
                     transaction.TransactionStatus = TranStatus.Success;
                     response.ResponseCode = "00";
-                    response.ResponseMessage = "Transaction successfull";
+                    response.ResponseMessage = "Transaction successful";
                     response.Data = null;
 
                 }

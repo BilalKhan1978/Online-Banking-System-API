@@ -64,6 +64,7 @@ namespace BankingSystemApi.Services.Implementations
             return account;
         }
         // create a method being used in above create method
+        // Converting Pin into byte array & storing in the db so that nobody can view from db
         private static void CreatePinHash(string pin, out byte[] pinHash, out byte[] pinSalt)
         {
             using (var hmac = new System.Security.Cryptography.HMACSHA512())
